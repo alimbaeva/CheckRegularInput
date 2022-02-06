@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input,
+        textarea {
+            width: 250px;
+            height: 30px;
+            margin-bottom: 25px;
+            border: 2px solid black;
+        }
+
+        textarea {
+            height: 300px;
+        }
+
+        button {
+            width: 250px;
+            height: 30px;
+            color: #FFF;
+            background-color: black;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <input data-tel="tel" type="text" placeholder="Ведите телефон номер">
+        <p class="telFalse"></p>
+        <input data-email="email" type="text" placeholder="Ведите вашу почту">
+        <p class="emailFalse"></p>
+        <textarea name="text"></textarea>
+        <button>Отправить</button>
+    </form>
+    <script src="js.js"></script>
+</body>
+
+</html>
